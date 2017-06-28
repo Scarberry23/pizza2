@@ -1,6 +1,11 @@
 print "How many pizza do you want?"
 num = gets.chomp
 	
+def size
+	size = ["small", "medium", "large"]
+	size.shuffle.first
+end
+
 def sauce
 	sauce = ["tomato", "ranch", "BBQ"]
  	sauce.shuffle.first
@@ -22,5 +27,5 @@ def veggies
 end
 
 50.times do
-    puts sauce, cheese, meat, veggies
+    puts size, sauce, cheese, meat, veggies
 end
