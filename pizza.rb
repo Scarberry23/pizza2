@@ -2,7 +2,7 @@ print "How many pizza do you want?"
 num = gets.chomp
 	
 def size
-	size = ["small", "medium", "large"]
+	size = ["small $7.99", "medium $10.00", "large $13.99"]
 	size.shuffle.first
 end
 
