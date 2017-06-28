@@ -6,6 +6,11 @@ def size
 	size.shuffle.first
 end
 
+def crust
+	crust = ["thin", "regular", "stuffed"]
+	crust.shuffle.first
+end
+
 def sauce
 	sauce = ["tomato", "ranch", "BBQ"]
  	sauce.shuffle.first
@@ -26,6 +31,8 @@ def veggies
 	veggies.shuffle.first
 end
 
+
+
 50.times do
-    puts size, sauce, cheese, meat, veggies
+    puts size, crust, sauce, cheese, meat, veggies
 end
