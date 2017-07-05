@@ -18,3 +18,4 @@ class Addition_test < Minitest::Test
         assert_equal(10, add(x,y))
     end
 end
+
