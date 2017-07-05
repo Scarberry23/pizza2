@@ -17,5 +17,20 @@ class Addition_test < Minitest::Test
 	    y = 5
         assert_equal(10, add(x,y))
     end
+
+    def test_6_4
+    	assert_equal(2, subtract(6,4))
+    end
+	
+
+
+
+
+
+
+
+
+
+
 end
 
